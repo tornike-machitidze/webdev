@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+                                                      /* FIRST SECTION STARTS HERE */
+.cover{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/bg-image.png);
+    height: 100vh;
+    width: 100rem;
+    background-position: center;
+    background-size: cover;
+}
+
+                                                     /* header section styles starts here */
+.navbar{
+    padding: 26px 502px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5.31rem;
+}
+
+.navbar  li{
+    list-style: none;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    opacity: 0.8;
+}
+.navbar li:hover{
+    list-style: none;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-weight: 500;
+    opacity: 1.0;
+    font-size: 16px;
+    line-height: 140%;
+    border-bottom: 1px solid #ECA3F5;
+    transition: 0.25s ease;
+}
+
+#logo-item a{
+    margin:0 15px;
+    opacity: 1.0;
+}
+
+                                             /* header section styles ends here */
+
+
+                                             /* main content in the first section starts here */
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin: 135px 0 180px 0;
+    color: white;
+}
+
+.text h1{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+.text .p-div{
+    margin: 0 548px;
+    text-align: center;
+}
+
+.text p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.text button{
+    border:none;
+    padding: 15px 47px;
+    background-color: #00AFDB;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+.text button a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text button:hover{
+    background-color: #FDBAF8;
+    transition: 0.25s ease;
+    border-radius: 15px;
+    
+}
+                                                      /* main content in the first section starts here */
+
+                                                      /* social links in the first section starts here */
+.social-links{
+    margin-bottom: 90px;
+}
+
+.social-links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.social-links li {
+    list-style: none;
+}
+
+.social-links li:hover{
+    border-bottom: 1px solid #ECA3F5;
+    margin-bottom: 2px;
+
+}
+
+.social-links li .circle1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 6px;
+    border: 1px solid white;
+    border-radius: 100%;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.social-links li .circle2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 6px;
+    border: 1px solid white;
+    border-radius: 100%;
+    text-align: center;
+    margin-bottom: 4px;
+}
+                                                       /* social links in the first section ends here */
+                                                                 /* FIRST SECTION ENDS HERE*/
+
+
+                                                                 /* SECOND SECTION STARTS HERE */
+.container{
+    width: 1600px;
+    padding: 120px 269px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:248px;
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.content-text h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+.content-text .h2-div{
+    width:380px;
+}
+
+.content-text p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+}
+.content-text .p-div{
+    width: 407px;
+}
+
+.content-text button {
+    margin-top: 10px;
+    border:none;
+    padding: 15px 47px;
+    background-color: #00AFDB;
+}
+
+.content-text button:hover{
+    background-color: #FFABE1;
+    transition: 0.25s ease;
+    border-radius: 15px;
+    box-shadow:6px 6px 6px #F6C6EA;
+}
+
+.content-text a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+                                                         /* SECOND SECTION ENDS HERE */
+
+
+                                                         /* THIRD SECTION STARTS HERE */
+.user{
+    width:1600px;
+    background: #F5F6F7;
+    overflow: hidden;
+}
+
+.user .nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    margin:82px 209px 20px 1248px;
+    width:83px;
+}
+
+.user .nav-items a{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    text-decoration: none;
+    color: #373737;
+}
+.user .nav-items a:hover{
+    border-bottom: 2px solid #C67ACE;
+}
+.user-content{
+    padding:0 0 140px 269px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info{
+    margin-right: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user-info .h3-div{
+    text-align: center;
+    margin:20px 0 10px 0;
+}
+.user-info h3{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.user-info p{
+    font-weight: normal;
+    color: #373737;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.user-info .p-div{
+    text-align: center;
+    width: 298px;
+    height: 80px;
+}
+
+.user-img{
+    margin-right: 30px;;
+}
+                                                        /* THIRD SECTION ENDdS HERE */
+
+                                                        /* FORTH SECTION STARTS HERE */
+
+                                                        /* FORTH SECTION ENDS HERER (ITS DEPENDS ON SECTION TWO) */
+                                                        
+                                                        /* TIVTH SECTION STARTS HERE */
+
+.signup-cover{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/pexels-christina-morillo-1181675\ 1signupcover.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:1600px;
+    padding: 200px 0 220px 0;
+}
+
+.sign-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.sign-container h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.signup-text{
+    text-align: center;
+    width: 385px;
+}
+
+.input-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-elements [type="email"]{
+    width: 340px;
+    height: 46px;
+    padding: 13px 270px 13px 24px;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.input-elements [type="submit"]{
+    width: 66px;
+    height: 46px;
+    text-align: center;
+    background-color: #00AFDB;
+    border:none;
+}
+
+.input-elements [type="submit"]:hover{
+    background-color: #FDBAF8;
+}
+
+                                                        /* FIVTH SECTION ENDS HERE */
+
+                                                        /* SIXTH SECTION STARTS HERE */
+.download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    padding: 120px 560px 180px 560px;
+    width: 1600px;
+    background-color: #F5F6F7;
+}
+
+.download-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.download-text{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   gap:20px;
+}
+.download-text .h2-div{
+    text-align: center;
+}
+.download-text .p-div{
+    text-align: center;
+}
+.download-text h2{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.download-text p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+}
+
+
+.download-btns .txt-cont{
+    padding: 15px 18px;
+    background-color: #00AFDB;
+    margin: 0;
+    width: 135px;
+    height: 46px;
+    border:none;
+}
+
+.download-btns .txt-cont:hover{
+    background-color: #FDBAF8;
+}
+.download-btns a{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.download-btns .icon{
+    padding: 13.75px 13.99px;
+    background-color:  #009CC2;
+    margin:0;
+    width: 59px;
+    height: 46px;
+    border:none;
+}
+.download-btns .icon:hover{
+    background-color: #ECA3F5;
+}
+.apple-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playstore-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+                                                           /* SIXTH SECTION ENDS HERE */
+
+                                                           /* SEVENTHTH SECTION ENDS HERE */
+.footer{
+    width: 1600px;
+    padding: 60px 160px 81px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;;
+}
+
+.footer-items ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.footer-items ul a{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: white;
+}
+.footer-items a:hover{
+    margin-bottom: 3px;
+    border-bottom: 2px solid #FFABE1;
+}
+
+.copy-right{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #818181;
+}
+
+#middle{
+    padding: 0 20px;
+    border-right: 1px solid #4E4E4E;
+    border-left: 1px solid #4E4E4E;
+}
+
+.footer .logo:hover{
+    border-bottom: 2px solid #FFABE1;
+}
+                                                          /* SEVENTH SECTION ENDS HERE */
+
+
+                                                              /* END OF THE WEBDEV */
